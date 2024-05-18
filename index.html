@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+
+    <!-- Start Navigasi -->
+    <nav>
+        <div class="logo">
+            <h4>Capstone Project Team 24</h4>
+        </div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="service">Service</a></li>
+            <li><a href="gallery">Gallery</a></li>
+            <li><a href="about">About</a></li>
+        </ul>
+
+        <div class="menu-toggle">
+            <input type="checkbox" name="" id="">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <!-- End nvigasi -->
+
+    <!-- Hompage -->
+<section class="hero" id="home">
+    <main class="content">
+        <h1>Hello, We Are&#39;s <span>Team 24</span></h1>
+        
+        <p>Student | RevoU Tech Academy </p>
+        <a class="cta" href="#">Selengkapnya</a>
+    </main>
+        
+        <div class="img">
+            <div class="hero-img">
+                <img src="img/pizaa 1.png" />
+            </div>
+        </div>
+</section>
+<!-- End Homepage -->
+
+    <!-- Start Content -->
+   
+            <div class="cards" id="dashboard">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">$ 801.945</div>
+                        <div class="card-name">Revenue</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-poll"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">49.574</div>
+                        <div class="card-name">Pizza Sold</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-cart-plus"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">32</div>
+                        <div class="card-name">Menu Off Pizza</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fab fa-elementor"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">96</div>
+                        <div class="card-name">Varian Off Pizza</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-address-book"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">$36 - $38</div>
+                        <div class="card-name">ATV Per Month</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                </div>
+            </div>
+             <div class="charts" id="home">
+                <div class="chart">
+                    <h2>Sales Growth 2015</h2>
+                    <canvas id="lineChart"></canvas>
+                </div>
+                    <div class="chart" id="doughnut-chart">
+                        <h2>Sales By Size</h2>
+                        <canvas id="doughnut"></canvas>
+                    </div>
+                    <div class="chart" id="Bar-chart">
+                        <h2>Top 5 Best-Seller</h2>
+                        <canvas id="BarChart"></canvas>
+                    </div>
+                    <div class="chart" id="Bar-chart">
+                        <h2>Top 5 Peak Hours</h2>
+                        <canvas id="pieChart"></canvas>
+                    </div>
+                    <div class="chart" id="Bar-chart">
+                        <h2>Buttom 5 Non-BestSeller</h2>
+                        <canvas id="Bar-chart1" width="100px" height="50"></canvas>
+                    </div>
+            </div>
+    <Script src="script.js"></Script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <script src="chart1.js"></script>
+    <script src="chart2.js"></script>
+    <script src="Chart3.js"></script>
+    <script src="Chart4.js"></script>
+    <script src="Chart5.js"></script> 
+</body>
+</html>
